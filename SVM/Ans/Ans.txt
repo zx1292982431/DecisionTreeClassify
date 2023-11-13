@@ -1,0 +1,51 @@
+Dataset:wine
+Accuracy: 1.00
+Classification Report:
+              precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00        14
+           2       1.00      1.00      1.00        14
+           3       1.00      1.00      1.00         8
+
+    accuracy                           1.00        36
+   macro avg       1.00      1.00      1.00        36
+weighted avg       1.00      1.00      1.00        36
+
+Dataset:car
+Accuracy: 0.93
+Classification Report:
+              precision    recall  f1-score   support
+
+         acc       0.92      0.80      0.85        83
+        good       0.50      0.91      0.65        11
+       unacc       0.97      0.97      0.97       235
+       vgood       0.94      1.00      0.97        17
+
+    accuracy                           0.93       346
+   macro avg       0.83      0.92      0.86       346
+weighted avg       0.94      0.93      0.93       346
+
+Dataset:iris
+Accuracy: 1.00
+Classification Report:
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       1.00      1.00      1.00         9
+ Iris-virginica       1.00      1.00      1.00        11
+
+       accuracy                           1.00        30
+      macro avg       1.00      1.00      1.00        30
+   weighted avg       1.00      1.00      1.00        30
+
+Dataset:adult
+Accuracy: 0.80
+Classification Report:
+              precision    recall  f1-score   support
+
+       <=50K       0.81      0.95      0.88      4942
+        >50K       0.68      0.31      0.43      1571
+
+    accuracy                           0.80      6513
+   macro avg       0.75      0.63      0.65      6513
+weighted avg       0.78      0.80      0.77      6513

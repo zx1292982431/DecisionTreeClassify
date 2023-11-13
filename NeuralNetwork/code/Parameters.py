@@ -6,3 +6,4 @@ class Parameters:
         self.test_batch = 128
         self.lr = 1e-5
         self.epochs = 100
+
